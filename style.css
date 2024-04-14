@@ -147,6 +147,25 @@ span {
 
 .hero-section {
   background-image: url(resources/hero_image.jpg);
-  height: 600px;
+  height: 350px;
   background-size: cover;
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.hero-msg {
+  background-color: white;
+  color: black;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  width: 90%;
+  margin-bottom: 35px;
+}
+
+.hero-msg a {
+  color: #007185;
 }
